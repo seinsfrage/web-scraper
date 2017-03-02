@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'triforce';
+    src: url('Triforce.tff') format('tff');
+}
+
+.jumbotron {
+	background-size: cover;
+	background-position: 45%;
+	background-position-x: 100px;
+	background-image: url('http://cdn.paper4pc.com/images/triforce-the-legend-of-zelda-wallpaper-1.jpg');
+}
+
+#new-comment {
+	resize: none;
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/8b/5c/ad/8b5cad30af8c64895a9bd7d276231488.jpg');
+}
+#title {
+	font-family: "triforce";
+	color: #bfc04b;
+}
+.title {
+	margin-top: 0;
+}
+.container {
+	background-color: white;
+}
+
+.comments {
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	display: none;
+}
+
+.comment-text {
+	font-style: italic;
+	margin-left: 15px;
+}
+
+#save-comment {
+	float: right;
+	margin: 10px 0;
+}
+
+.comment {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.remove {
+	margin: 15px;
+}
+
+@media screen and (max-width: 990px) {
+	.article-img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 729px) {
+	.jumbotron {
+		background-position-x: 200px;
+	}
+}
+@media screen and (min-width: 730px) and (max-width: 769px) {
+	#title {
+		font-size: 63px;
+	}
+}
